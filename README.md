@@ -1241,11 +1241,24 @@ $ brew tap homebrew/completions
 $ brew install vagrant-completion
 ```
 
-Then just add the following to your `.bash_profile` to source the completions:
+In your terminal type the following to source the completions:
 
 ```bash
+vi ~/.bash_profile
+```
+
+Leave a space under the line of code that's already there, insert:
+
+```bash
+# This sources the completions; see Vagrant Completions under Mac Dev Setup on GitHub 
 [ -f `brew --prefix`/etc/bash_completion.d/vagrant ]; source `brew --prefix`/etc/bash_completion.d/vagrant
 ```
+
+Finally, scroll to the end of the above text, press SEMI-COLON, type:
+```bash
+wq
+```
+
 ## MySQL Workbench
 
 [Download and install for there website](http://mysqlworkbench.org/)
