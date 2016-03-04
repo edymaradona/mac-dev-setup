@@ -8,7 +8,24 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [System update](#system-update)
 - [System preferences](#system-preferences)
 - [Google Chrome](#google-chrome)
+
+##Key Tools
 - [Homebrew](#homebrew)
+- [Node.js](#nodejs)
+- [Ruby and RVM](#ruby-and-rvm)
+- [VirtualBox](#virtualbox)
+- [Docker](#docker)
+- [Git](#git)
+- [Vim](#vim)
+- [PHP](#php)
+- [Python](#python)
+- [Python Virtualenv](#python-virtualenv)
+- [Vagrant](#vagrant)
+- [Heroku](#heroku)
+- [MySQLWorkBench](#MySQL-Workbench)
+
+# Tools to make life easier
+
 - [GNU Core Utilities](#gnu-core-utilities)
 - [Bash v4](#bash-v4)
 - [Bash Completions](#bash-completions)
@@ -16,26 +33,16 @@ The document assumes you are new to Mac. The steps below were tested on **OS X M
 - [Consolas](#consolas)
 - [Beautiful terminal](#beautiful-terminal)
 - [iTerm2](#iterm2)
-- [Git](#git)
-- [Vim](#vim)
-- [PHP](#php)
-- [Python](#python)
-- [IPython](#ipython)
 - [Numpy, Scipy, matplotlib, and scikit-learn](#numpy-scipy-matplotlib-and-scikit-learn)
 - [pandas](#pandas)
-- [Python Virtualenv](#python-virtualenv)
+
+## Might need  
 - [R](#r)
-- [Node.js](#nodejs)
-- [Ruby and RVM](#ruby-and-rvm)
 - [Go](#go)
-- [Heroku](#heroku)
 - [MongoDB](#mongodb)
 - [PostgreSQL](#postgresql)
 - [Redis](#redis)
 - [MySQL](#mysql)
-- [VirtualBox](#virtualbox)
-- [Vagrant](#vagrant)
-- [Docker](#docker)
 - [Apps](#apps)
 - [Things from fork I dont use personally](#things-from-fork-i-dont-use-personally)
     - [Sublime Text](#sublime-text)
@@ -1239,6 +1246,9 @@ Then just add the following to your `.bash_profile` to source the completions:
 ```bash
 [ -f `brew --prefix`/etc/bash_completion.d/vagrant ]; source `brew --prefix`/etc/bash_completion.d/vagrant
 ```
+## MySQL Workbench
+
+[Download and install for there website](http://mysqlworkbench.org/)
 
 ## Docker
 
@@ -1246,39 +1256,7 @@ Then just add the following to your `.bash_profile` to source the completions:
 
 ### Install
 
-```bash
-$ brew update
-$ brew install docker
-$ brew install boot2docker
-```
-
-### How to use
-boot2docker comes with a simple init script that leverage's VirtualBox's `VBoxManage`. You can start, stop and delete the VM right from the command line.
-
-Initialize
-
-```bash
-$ boot2docker init
-```
-
-Start vm
-
-```bash
-$ boot2docker up
-```
-
-SSH into vm
-
-```bash
-$ boot2docker ssh
-```
-
-boot2docker auto logs in, but if you want to SSH into the machine, the credentials are:
-
-```
-user: docker
-pass: tcuser
-```
+Download and install from the [Docker website](https://docs.docker.com/mac/step_one/)
 
 
 ## Apps
