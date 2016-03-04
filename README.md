@@ -2,7 +2,7 @@
 
 This document describes how I set up my developer environment on a new MacBook or iMac. We will set up [Node](http://nodejs.org/), [PHP](http://www.php.net/), [Python](http://www.python.org/), [Ruby](http://www.ruby-lang.org/), and [Go](http://golang.org/) environments.
 
-The document assumes you are new to Mac. The steps below were tested on **OS X Mountain Lion**.
+The document assumes you are new to Mac. The steps below were tested on **OS X El Capitan**.
 
 
 - [System update](#system-update)
