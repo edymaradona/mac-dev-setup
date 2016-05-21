@@ -160,6 +160,28 @@ $ brew install coreutils
 $ brew install findutils
 ```
 
+## Oh-My-Zsh
+
+Oh my Zshs is a great package for improving your terminal, it comes with colours, autocompletion for a lot of tools and a whole bunch of other goodies. Installing this could mean you could skip installing Bash v4.
+
+This is a [great setup guide for installing](http://sourabhbajaj.com/mac-setup/iTerm/zsh.html). I'll put the highlights here, run the following command to install.
+
+Install zsh and zsh completions using homebrew
+
+```bash
+$ brew install zsh zsh-completions
+```
+
+Install oh-my-zsh on top of zsh to getting additional functionality
+
+```bash
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+You can customize this to fit your needs, check out the (ZSH README)[https://github.com/robbyrussell/oh-my-zsh/] for information
+
+
+
 
 ## Bash v4
 Do to lack of Associative Arrays in Bash (Version < 3) i decided to install bash from Homebrew.
