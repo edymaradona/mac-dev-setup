@@ -26,6 +26,7 @@ The document assumes you are new to Mac. The steps below were tested on **OS X E
 
 # Tools to make life easier
 
+- [YADR](#YDAR)
 - [GNU Core Utilities](#gnu-core-utilities)
 - [Bash v4](#bash-v4)
 - [Bash Completions](#bash-completions)
@@ -151,9 +152,9 @@ To see what you have installed (with their version numbers):
 $ brew list --versions
 ```
 
-## Install YDAR
+## YDAR
 
-What is YADR?
+### What is YADR?
 
 YADR is an opinionated dotfile repo that will make your heart sing
 
