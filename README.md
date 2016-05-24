@@ -151,6 +151,25 @@ To see what you have installed (with their version numbers):
 $ brew list --versions
 ```
 
+## Install YDAR
+
+What is YADR?
+
+YADR is an opinionated dotfile repo that will make your heart sing
+
+- The best bits of all the top dotfile repos, vim and zsh plugins curated in one place, into a simple and cohesive way of working.
+- More than 90 vim plugins, all under one roof, working together, each plugin researched and configured to be at its best, often with better shortcut keys.
+ - Many zsh plugins, starting with the wonderful Prezto base, and adding a few niceties on top.
+ - All things are vimized: irb, postgres command line, etc.
+
+To install do
+
+```bash
+$ sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"
+```
+
+Once you install YADR you pretty much don't need to most of the other packages in this list. You should be good to go
+
 ## GNU Core Utilities
 The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system. These are the core utilities which are expected to exist on every operating system. However the one's that come preinstalled with Mac are a bit older.
 
