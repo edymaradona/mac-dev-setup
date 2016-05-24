@@ -26,7 +26,7 @@ The document assumes you are new to Mac. The steps below were tested on **OS X E
 
 # Tools to make life easier
 
-- [YADR](#YDAR)
+- [YADR](#ydar)
 - [GNU Core Utilities](#gnu-core-utilities)
 - [Bash v4](#bash-v4)
 - [Bash Completions](#bash-completions)
